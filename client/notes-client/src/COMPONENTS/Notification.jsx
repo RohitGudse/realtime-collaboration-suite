@@ -1,7 +1,4 @@
-const Notification = ({ message }) => {
-  return <div>{message}</div>;
-};
-export default Notification;import { useEffect } from "react";
+import { useEffect } from "react";
 
 const useAutoSave = (data) => {
   useEffect(() => {
